@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56911C01BAADCD2006B52BD /* 1578945.png in Resources */ = {isa = PBXBuildFile; fileRef = B56911BF1BAADCD2006B52BD /* 1578945.png */; settings = {ASSET_TAGS = (); }; };
 		B57AF6241BAAC69A00718D38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AF6231BAAC69A00718D38 /* main.m */; };
 		B57AF6271BAAC69A00718D38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AF6261BAAC69A00718D38 /* AppDelegate.m */; };
 		B57AF62A1BAAC69A00718D38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AF6291BAAC69A00718D38 /* ViewController.m */; };
 		B57AF62D1BAAC69A00718D38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AF62B1BAAC69A00718D38 /* Main.storyboard */; };
 		B57AF62F1BAAC69A00718D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B57AF62E1BAAC69A00718D38 /* Assets.xcassets */; };
 		B57AF6321BAAC69A00718D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B57AF6301BAAC69A00718D38 /* LaunchScreen.storyboard */; };
+		B57AF63B1BAAC90200718D38 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57AF63A1BAAC90200718D38 /* mainViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B56911BF1BAADCD2006B52BD /* 1578945.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1578945.png; sourceTree = "<group>"; };
 		B57AF61F1BAAC69A00718D38 /* PersonCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57AF6231BAAC69A00718D38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B57AF6251BAAC69A00718D38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		B57AF62E1BAAC69A00718D38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B57AF6311BAAC69A00718D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B57AF6331BAAC69A00718D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57AF6391BAAC90200718D38 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		B57AF63A1BAAC90200718D38 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +63,8 @@
 		B57AF6211BAAC69A00718D38 /* PersonCenter */ = {
 			isa = PBXGroup;
 			children = (
-				B57AF6251BAAC69A00718D38 /* AppDelegate.h */,
-				B57AF6261BAAC69A00718D38 /* AppDelegate.m */,
-				B57AF6281BAAC69A00718D38 /* ViewController.h */,
-				B57AF6291BAAC69A00718D38 /* ViewController.m */,
-				B57AF62B1BAAC69A00718D38 /* Main.storyboard */,
-				B57AF62E1BAAC69A00718D38 /* Assets.xcassets */,
-				B57AF6301BAAC69A00718D38 /* LaunchScreen.storyboard */,
-				B57AF6331BAAC69A00718D38 /* Info.plist */,
+				B57AF6391BAAC90200718D38 /* mainViewController.h */,
+				B57AF63A1BAAC90200718D38 /* mainViewController.m */,
 				B57AF6221BAAC69A00718D38 /* Supporting Files */,
 			);
 			path = PersonCenter;
@@ -74,6 +73,15 @@
 		B57AF6221BAAC69A00718D38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B56911BF1BAADCD2006B52BD /* 1578945.png */,
+				B57AF6251BAAC69A00718D38 /* AppDelegate.h */,
+				B57AF6261BAAC69A00718D38 /* AppDelegate.m */,
+				B57AF6281BAAC69A00718D38 /* ViewController.h */,
+				B57AF6291BAAC69A00718D38 /* ViewController.m */,
+				B57AF62B1BAAC69A00718D38 /* Main.storyboard */,
+				B57AF62E1BAAC69A00718D38 /* Assets.xcassets */,
+				B57AF6301BAAC69A00718D38 /* LaunchScreen.storyboard */,
+				B57AF6331BAAC69A00718D38 /* Info.plist */,
 				B57AF6231BAAC69A00718D38 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B57AF6321BAAC69A00718D38 /* LaunchScreen.storyboard in Resources */,
+				B56911C01BAADCD2006B52BD /* 1578945.png in Resources */,
 				B57AF62F1BAAC69A00718D38 /* Assets.xcassets in Resources */,
 				B57AF62D1BAAC69A00718D38 /* Main.storyboard in Resources */,
 			);
@@ -153,6 +162,7 @@
 				B57AF62A1BAAC69A00718D38 /* ViewController.m in Sources */,
 				B57AF6271BAAC69A00718D38 /* AppDelegate.m in Sources */,
 				B57AF6241BAAC69A00718D38 /* main.m in Sources */,
+				B57AF63B1BAAC90200718D38 /* mainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +274,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PersonCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Wl,-sectcreate,__RESTRICT,__restrict,/dev/null";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abel.PersonCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -275,6 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PersonCenter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Wl,-sectcreate,__RESTRICT,__restrict,/dev/null";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abel.PersonCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -299,6 +311,7 @@
 				B57AF6381BAAC69A00718D38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
